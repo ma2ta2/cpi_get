@@ -19,7 +19,7 @@ if __name__=='__main__':
 	try:
 		today = datetime.date.today()
 		print 'hiduke_check start /', today.month
-			take_cpi()
+		take_cpi()
 
 	except:
 		print 'exit'
